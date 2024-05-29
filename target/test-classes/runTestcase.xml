@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Jenkins" parallel = "classes" thread-count = "1">
+
+  <test name="Run on Chrome">
+    <classes>
+      <class name="jenkins.TestClass_01_Register"/>
+      <class name="jenkins.TestClass_02_Login"/>
+    </classes>
+  </test>
+  
+  
+</suite> 

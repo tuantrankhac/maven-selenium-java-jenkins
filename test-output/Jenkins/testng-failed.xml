@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Jenkins]">
+  <test thread-count="1" parallel="classes" name="Run on Chrome(failed)">
+    <classes>
+      <class name="jenkins.TestClass_02_Login">
+        <methods>
+          <include name="runForEachTest"/>
+          <include name="TC_002_LoginWithEmailAndPassEmpty"/>
+          <include name="TC_003_LoginWithEmailAndPassEmpty"/>
+          <include name="beforeClass"/>
+          <include name="TC_001_LoginWithEmailAndPassEmpty"/>
+          <include name="TC_004_LoginWithEmailAndPassEmpty"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- jenkins.TestClass_02_Login -->
+      <class name="jenkins.TestClass_01_Register">
+        <methods>
+          <include name="TC_003_RegisterWithEmailAndPassEmpty"/>
+          <include name="TC_001_RegisterWithEmailAndPassEmpty"/>
+          <include name="afterClass"/>
+          <include name="TC_004_RegisterWithEmailAndPassEmpty"/>
+          <include name="TC_002_RegisterWithEmailAndPassEmpty"/>
+          <include name="runForEachTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- jenkins.TestClass_01_Register -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Jenkins] -->

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Jenkins" class="navigator-link">
+              <span class="suite-name border-passed">Jenkins</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Jenkins" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\maven_selenium_java_jenkins\src\test\resources\runTestcase.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Jenkins" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Jenkins" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Jenkins" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Jenkins" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Jenkins" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Jenkins" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Jenkins" class="hide-methods passed suite-Jenkins"> (hide)</a> <!-- hide-methods passed suite-Jenkins -->
+                      <a href="#" panel-name="suite-Jenkins" class="show-methods passed suite-Jenkins"> (show)</a> <!-- show-methods passed suite-Jenkins -->
+                    </span>
+                    <div class="method-list-content passed suite-Jenkins">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_02_Login" class="method navigator-link" hash-for-method="TC_001_LoginWithEmailAndPassEmpty">TC_001_LoginWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_01_Register" class="method navigator-link" hash-for-method="TC_001_RegisterWithEmailAndPassEmpty">TC_001_RegisterWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_02_Login" class="method navigator-link" hash-for-method="TC_002_LoginWithEmailAndPassEmpty">TC_002_LoginWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_01_Register" class="method navigator-link" hash-for-method="TC_002_RegisterWithEmailAndPassEmpty">TC_002_RegisterWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_02_Login" class="method navigator-link" hash-for-method="TC_003_LoginWithEmailAndPassEmpty">TC_003_LoginWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_01_Register" class="method navigator-link" hash-for-method="TC_003_RegisterWithEmailAndPassEmpty">TC_003_RegisterWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_02_Login" class="method navigator-link" hash-for-method="TC_004_LoginWithEmailAndPassEmpty">TC_004_LoginWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Jenkins" title="jenkins.TestClass_01_Register" class="method navigator-link" hash-for-method="TC_004_RegisterWithEmailAndPassEmpty">TC_004_RegisterWithEmailAndPassEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Jenkins -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Jenkins" class="panel Jenkins">
+          <div class="suite-Jenkins-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jenkins.TestClass_02_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_LoginWithEmailAndPassEmpty">
+                  </a> <!-- TC_001_LoginWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_001_LoginWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_LoginWithEmailAndPassEmpty">
+                  </a> <!-- TC_002_LoginWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_002_LoginWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_LoginWithEmailAndPassEmpty">
+                  </a> <!-- TC_003_LoginWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_003_LoginWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_LoginWithEmailAndPassEmpty">
+                  </a> <!-- TC_004_LoginWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_004_LoginWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jenkins-class-passed -->
+          <div class="suite-Jenkins-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">jenkins.TestClass_01_Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_RegisterWithEmailAndPassEmpty">
+                  </a> <!-- TC_001_RegisterWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_001_RegisterWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_RegisterWithEmailAndPassEmpty">
+                  </a> <!-- TC_002_RegisterWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_002_RegisterWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_RegisterWithEmailAndPassEmpty">
+                  </a> <!-- TC_003_RegisterWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_003_RegisterWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_004_RegisterWithEmailAndPassEmpty">
+                  </a> <!-- TC_004_RegisterWithEmailAndPassEmpty -->
+                  <span class="method-name">TC_004_RegisterWithEmailAndPassEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Jenkins-class-passed -->
+        </div> <!-- panel Jenkins -->
+        <div panel-name="test-xml-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\maven_selenium_java_jenkins\src\test\resources\runTestcase.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Jenkins&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Run on Chrome&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;jenkins.TestClass_01_Register&quot;/&gt;
+      &lt;class name=&quot;jenkins.TestClass_02_Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Jenkins --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Jenkins</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on Chrome (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Jenkins</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Jenkins</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Jenkins');
+function tableData_Jenkins() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_002_RegisterWithEmailAndPassEmpty')
+data.setCell(0, 2, 'jenkins.TestClass_01_Register')
+data.setCell(0, 3, 112);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_001_RegisterWithEmailAndPassEmpty')
+data.setCell(1, 2, 'jenkins.TestClass_01_Register')
+data.setCell(1, 3, 96);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_003_RegisterWithEmailAndPassEmpty')
+data.setCell(2, 2, 'jenkins.TestClass_01_Register')
+data.setCell(2, 3, 74);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_002_LoginWithEmailAndPassEmpty')
+data.setCell(3, 2, 'jenkins.TestClass_02_Login')
+data.setCell(3, 3, 72);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_003_LoginWithEmailAndPassEmpty')
+data.setCell(4, 2, 'jenkins.TestClass_02_Login')
+data.setCell(4, 3, 57);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_001_LoginWithEmailAndPassEmpty')
+data.setCell(5, 2, 'jenkins.TestClass_02_Login')
+data.setCell(5, 3, 56);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_004_LoginWithEmailAndPassEmpty')
+data.setCell(6, 2, 'jenkins.TestClass_02_Login')
+data.setCell(6, 3, 51);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_004_RegisterWithEmailAndPassEmpty')
+data.setCell(7, 2, 'jenkins.TestClass_01_Register')
+data.setCell(7, 3, 50);
+window.suiteTableData['Jenkins']= { tableData: data, tableDiv: 'times-div-Jenkins'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 568 ms</span>
+              <div id="times-div-Jenkins">
+              </div> <!-- times-div-Jenkins -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Jenkins</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Jenkins" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">jenkins.TestClass_01_Register</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">2201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_RegisterWithEmailAndPassEmpty</span>
+                <span class="method-start">7179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">7287 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_RegisterWithEmailAndPassEmpty</span>
+                <span class="method-start">8804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">8918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_003_RegisterWithEmailAndPassEmpty</span>
+                <span class="method-start">10445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">10521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_RegisterWithEmailAndPassEmpty</span>
+                <span class="method-start">11983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">12035 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">jenkins.TestClass_02_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">12140 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">12835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_LoginWithEmailAndPassEmpty</span>
+                <span class="method-start">17608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">17665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_LoginWithEmailAndPassEmpty</span>
+                <span class="method-start">19179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">19253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_003_LoginWithEmailAndPassEmpty</span>
+                <span class="method-start">20850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">runForEachTest</span>
+                <span class="method-start">20908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_004_LoginWithEmailAndPassEmpty</span>
+                <span class="method-start">22449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">22502 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

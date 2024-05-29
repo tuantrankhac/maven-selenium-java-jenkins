@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T14:26:46 ICT" name="Jenkins" finished-at="2024-05-29T14:27:11 ICT" duration-ms="25701">
+    <groups>
+    </groups>
+    <test started-at="2024-05-29T14:26:46 ICT" name="Run on Chrome" finished-at="2024-05-29T14:27:11 ICT" duration-ms="25701">
+      <class name="jenkins.TestClass_02_Login">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:00 ICT" name="beforeClass" finished-at="2024-05-29T14:27:01 ICT" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:01 ICT" name="runForEachTest" finished-at="2024-05-29T14:27:06 ICT" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_001_LoginWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:06 ICT" name="TC_001_LoginWithEmailAndPassEmpty" finished-at="2024-05-29T14:27:06 ICT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_LoginWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:06 ICT" name="runForEachTest" finished-at="2024-05-29T14:27:07 ICT" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_002_LoginWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:07 ICT" name="TC_002_LoginWithEmailAndPassEmpty" finished-at="2024-05-29T14:27:07 ICT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_LoginWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:07 ICT" name="runForEachTest" finished-at="2024-05-29T14:27:09 ICT" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_003_LoginWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:09 ICT" name="TC_003_LoginWithEmailAndPassEmpty" finished-at="2024-05-29T14:27:10 ICT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_LoginWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:10 ICT" name="runForEachTest" finished-at="2024-05-29T14:27:11 ICT" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_004_LoginWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:11 ICT" name="TC_004_LoginWithEmailAndPassEmpty" finished-at="2024-05-29T14:27:11 ICT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_LoginWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:jenkins.TestClass_02_Login@61f2c3f0]" started-at="2024-05-29T14:27:11 ICT" name="afterClass" finished-at="2024-05-29T14:27:11 ICT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jenkins.TestClass_02_Login -->
+      <class name="jenkins.TestClass_01_Register">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:46 ICT" name="beforeClass" finished-at="2024-05-29T14:26:47 ICT" duration-ms="1613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:47 ICT" name="runForEachTest" finished-at="2024-05-29T14:26:55 ICT" duration-ms="8058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_001_RegisterWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:55 ICT" name="TC_001_RegisterWithEmailAndPassEmpty" finished-at="2024-05-29T14:26:55 ICT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_RegisterWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:55 ICT" name="runForEachTest" finished-at="2024-05-29T14:26:57 ICT" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_002_RegisterWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:57 ICT" name="TC_002_RegisterWithEmailAndPassEmpty" finished-at="2024-05-29T14:26:57 ICT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_RegisterWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:57 ICT" name="runForEachTest" finished-at="2024-05-29T14:26:59 ICT" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_003_RegisterWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:59 ICT" name="TC_003_RegisterWithEmailAndPassEmpty" finished-at="2024-05-29T14:26:59 ICT" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_RegisterWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="runForEachTest()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:26:59 ICT" name="runForEachTest" finished-at="2024-05-29T14:27:00 ICT" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runForEachTest -->
+        <test-method signature="TC_004_RegisterWithEmailAndPassEmpty()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:27:00 ICT" name="TC_004_RegisterWithEmailAndPassEmpty" finished-at="2024-05-29T14:27:00 ICT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_RegisterWithEmailAndPassEmpty -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:jenkins.TestClass_01_Register@3c2772d1]" started-at="2024-05-29T14:27:00 ICT" name="afterClass" finished-at="2024-05-29T14:27:00 ICT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- jenkins.TestClass_01_Register -->
+    </test> <!-- Run on Chrome -->
+  </suite> <!-- Jenkins -->
+</testng-results>

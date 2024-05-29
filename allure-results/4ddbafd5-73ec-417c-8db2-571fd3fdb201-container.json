@@ -1,0 +1,1 @@
+{"uuid":"4ddbafd5-73ec-417c-8db2-571fd3fdb201","name":"jenkins.TestClass_01_Register","children":["8c1e9e84-f2cd-4a03-92fc-9be9043a053b"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1716966332611,"stop":1716966337856}],"afters":[],"start":1716966332571,"stop":1716966343828}
