@@ -70,6 +70,15 @@ public class TestClass_01_Register {
 		Assert.assertEquals(passwordErrorMessage, "This is a required field.");
 	}
 	
+	@Test
+	public void TC_005_RegisterWithEmailAndPassEmpty() {
+		String emailErrorMessage = driver.findElement(By.xpath("//div[@id='advice-required-entry-email']")).getText();
+		Assert.assertEquals(emailErrorMessage, "This is a required field.");
+		
+		String passwordErrorMessage = driver.findElement(By.xpath("//div[@id='advice-required-entry-pass']")).getText();
+		Assert.assertEquals(passwordErrorMessage, "This is a required field.");
+	}
+	
 	@AfterClass (alwaysRun = true)
 	public void afterClass() {
 		driver.quit();
