@@ -24,7 +24,7 @@ node {
             allowMissing: false,
             alwaysLinkToLastBuild: false, 
             keepAll: false, 
-            reportDir: 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\PIPELINE_GITHUB\\target\\surefire-reports\\html',
+            reportDir: 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\PIPELINE_GITHUB\\target\\surefire-reports\\',
             reportFiles: 'index.html', 
             reportName: 'HTML Report',
             reportTitles: '', 
